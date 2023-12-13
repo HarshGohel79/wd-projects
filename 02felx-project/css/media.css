@@ -1,0 +1,33 @@
+@media(max-width:1000px) {
+    .nav{flex-direction: column;line-height: 80px;}
+    .main1{position: static;flex-direction: column;transform: translate(0,0);}
+     .rental{display: block;}
+     .property-list{width: 33.33%;}
+     .house2{width: 100%;}
+    .font{display: block;}
+    .fon1,.fon2{width: 100%;}
+}
+
+@media(max-width:800px){
+    .main1{position: static;flex-direction: column;transform: translate(0,0);}
+    .property-list{width: 50%;}
+    .house1{width: 100%;text-align: center;}
+}
+
+@media(max-width:700px){
+    .logo,.nav {flex-direction: column;text-align: center;line-height: 60px;}
+    .nav .list li{padding: 10px;}
+    .property-list,.fon2 div{width: 100%;}
+    {width:100%;}
+    .Latest-Properties ul li
+    {display: block;}
+    .let2,.let3,.let4,.let5,.let6,.let7,.let8
+    {width:90%;}
+    .fon2{display: block;}
+}
+
+@media(max-width:500px)
+{
+    .let2,.let3,.let4,.let5,.let6,.let7,.let8{width: 90%;}
+    .joker{ display: block;}
+}

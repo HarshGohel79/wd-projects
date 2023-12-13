@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    /* background: aquamarine;  */
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-color: gold;
+    color: black;
+    position: relative;
+}
+
+.logo,
+.nav {
+    /* background-color: red; */
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* .nav
+{
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    background: blueviolet;
+    height: 80px;
+    width: 100%;
+    opacity: 1;
+} */
+.nav img {
+    width: 200px;
+}
+
+.fa {
+    transition: 1s;
+}
+
+.fa:hover {
+    transform: scale(0.8);
+    /* transform: rotate(360deg); */
+    color: red;
+}
+
+span i {
+    margin: 3px;
+    padding: 5px;
+}
+
+.nav {
+    /* background: green; */
+    justify-content: space-between;
+    align-items: center;
+
+    /* text-align: center; */
+}
+
+.nav .list li {
+    display: inline;
+    padding: 20px;
+}
+
+.nav .list li a {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+
+}
+
+.list ul li a:hover {
+    background: aqua;
+    color: red;
+    border-radius: 150px;
+}
+
+
+
+.text {
+    /* background: yellowgreen; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.text p {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.text span {
+    font-weight: bold;
+}
+
+.main1 {
+    text-align: center;
+    gap: 20px;
+    background: black;
+    color: white;
+    line-height: 40px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.rental {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.abc {
+    padding: 15px;
+}
+
+.abc .a {
+    color: transparent;
+}
+
+input {
+    transition: 1s;
+    text-align: center;
+
+}
+
+input:hover {
+    background: greenyellow;
+}
+
+.propertiesbyarea {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.inf {
+    width: 55%;
+    margin: auto;
+    padding: 20px;
+    /* background: yellowgreen; */
+}
+
+button {
+    background: green;
+    position: relative;
+}
+
+button::after {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background: red;
+
+}
+
+button:hover::after {
+    left: 0;
+}
+
+
+
+img {
+    height: 80px;
+    width: 110px;
+    object-fit: contain;
+}
+
+.Property-mainu {
+    display: flex;
+    flex-wrap: wrap;
+    /* background: wheat; */
+    margin: auto;
+    width: 80%;
+
+}
+
+.property-list {
+    display: flex;
+    /* border: 2px solid;    */
+    width: 25%;
+    padding: 20px;
+    gap: 10px;
+}
+
+.Property-text {
+    margin: auto;
+    width: 50%;
+}
+
+
+.Latest-Properties {
+    text-align: center;
+    padding: 20px;
+}
+
+.in {
+    width: 55%;
+    /* background: red; */
+    margin: auto;
+    padding: 20px;
+}
+
+.Latest-Properties ul li {
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.luxury-house {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background: chartreuse; */
+    margin: auto;
+    width: 80%;
+    padding: 30px;
+}
+
+.house1 {
+    width: 33.33%;
+    padding: 40px;
+}
+
+.house1 p {
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.lat {
+    text-align: center;
+    padding: 20px;
+}
+
+.lat1 {
+    text-align: center;
+    width: 50%;
+    /* background: yellow ; */
+    margin: auto;
+    padding: 20px;
+}
+
+.lat2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* background: red; */
+    border: 2px solid black;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    /* padding: 30px; */
+}
+
+.lat2 img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.let3 {
+    width: 50%;
+}
+
+.let4 {
+    width: 25%;
+}
+
+.let5 {
+    width: 25%;
+}
+
+.let6 {
+    width: 25%;
+}
+
+.let7 {
+    width: 25%;
+}
+
+.let8 {
+    width: 50%;
+}
+
+.Featured-properties {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 100px auto;
+    justify-content: center;
+}
+
+.house2 {
+    display: flex;
+    width: 50%;
+    /* background: red; */
+    justify-content: center;
+}
+
+.kk {
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+}
+
+.kk p {
+    padding: 15px;
+}
+
+.font {
+    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.fon1 {
+    height: 80vh;
+
+    background: url(../img/images.jfif);
+    background-size: cover;
+    position: relative;
+
+}
+
+.fon1,
+.fon2 {
+    width: 50%;
+}
+
+.fon2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fimg {
+    width: 50%;
+}
+
+.mm {
+    position: absolute;
+    background: black;
+    color: aqua;
+    bottom: 0%;
+    left: 40%;
+    /* padding: 20px; */
+    width: 40%;
+}
+
+.mm p {
+    padding: 5px;
+}
+
+.joker {
+    display: flex;
+}
+
+.joker p {
+    padding: 10px;
+    margin: auto;
+}
+
+/* .photo
+{
+    display: flex;
+    flex-wrap: wrap;
+} */

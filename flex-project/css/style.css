@@ -1,0 +1,508 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "metropolis-semibold";
+}
+
+/* your header start....  */
+.header {
+    background: black;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 60px;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.search1 i {
+    font-size: 2vw;
+}
+
+.search2 p {
+    font-size: 4vw;
+}
+
+
+/* your header start....   */
+
+
+
+/* your navbar start....   */
+
+.nav {
+    text-align: center;
+    padding: 60px;
+    word-spacing: 40px;
+    background: black;
+    position: relative;
+    z-index: 1;
+}
+
+.list {
+    display: inline;
+    position: relative;
+    background: black;
+
+}
+
+.nav1 {
+    position: absolute;
+    top: 100%;
+    left: -25%;
+    padding: 20%;
+    width: 150px;
+    background: black;
+    height: auto;
+    text-align: left;
+    display: none;
+    transition: 1s;
+}
+
+.list:hover .nav1 {
+    display: block;
+    opacity: 1;
+}
+
+.list2 {
+    line-height: 40px;
+}
+
+.nav2 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background: black;
+    display: none;
+    opacity: 1;
+    text-align: left;
+}
+
+.list:hover .nav2 {
+    display: block;
+    opacity: 1;
+}
+
+.nav-effect {
+    padding-top: 100px;
+    transition: 8s;
+    opacity: 0;
+}
+
+.list:hover .nav-effect {
+    padding-top: 0px;
+    opacity: 1;
+}
+
+/* your navbar start....   */
+
+
+/* your music-preference start....   */
+
+.imgs {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+.imgs img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.jocker img:hover ,.car img:hover ,.watch img:hover
+{
+    transition: 1s;
+}
+.jocker:hover ,.car:hover ,.watch:hover{
+    filter: blur(3px);
+    overflow: hidden;
+}
+.imgs .jocker {
+    width: 63%;
+}
+
+.imgs .johndoe {
+    width: 37%;
+}
+
+.jocker,
+.johndoe {
+    position: relative;
+}
+
+.music {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 10%;
+    bottom: 7%;
+    padding: 20px;
+    z-index: 1;
+}
+
+.johnimg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.johnimg img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.music {
+    line-height: 50px;
+    font-size: 2vh;
+}
+
+.watch,
+.car {
+    position: relative;
+}
+
+.Management,
+.Lifestyle {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+
+.Management,
+.Lifestyle {
+    line-height: 30px;
+    font-size: 2vh;
+}
+.music button
+{
+    background: rgb(0, 153, 255);
+    padding: 5px;
+}
+
+.Management button ,.Lifestyle button
+{
+    background: green;
+    padding: 5px;
+}
+
+/* your music-preference end....  */
+
+
+/* your gallery start */
+.gallery {
+    height: auto;
+    column-count: 3;
+    width: 80%;
+    margin: auto;
+    padding: 60px;
+}
+
+.all-photo {
+    width: 100%;
+    height: auto;
+    color: black;
+    background: white;
+    box-shadow: 0 0 5px black;
+    margin-bottom: 20px;
+    transform: scale(1);
+    transition: 6s;
+    overflow: hidden;
+}
+.all-photo p {
+    padding: 10px;
+    text-align: left;
+}
+
+.all-photo h2 {
+    padding: 10px;
+}
+
+.all-photo .photo:hover ,.hover-tex:hover{
+    transform: scale(1.08);
+    overflow: hidden;
+    font-size: 30px;
+    z-index: 1;
+}
+.photo
+{
+    position: relative;
+}
+
+.hover-tex
+{
+    position: absolute;
+    top: 0px;
+    left:0;
+    color: white;
+    /* background: black; */
+    width: 100%;
+    height: 300px ;
+    z-index: 0;
+    text-align: center;
+    line-height: 300px;
+}
+/* .hover-tex:hover
+{
+    font-size: 30px;
+    z-index: ;
+} */
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photo-txt {
+   padding: 40px;
+}
+
+
+.text {
+    height: 520px;
+}
+
+.text p,
+.text1 p {
+    text-align: center;
+    font-size: 5vh;
+    padding-top: 5vh;
+
+}
+
+.text h5 p a,
+.text1 h5 p a,
+.photo-txt a p {
+    margin: auto;
+    font-size: 2vh;
+    color: black;
+}
+/* your gallery end */
+
+
+/* your numberstart */
+.number {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 20px;
+    /* padding-top: 80px; */
+    align-items: center;
+}
+
+.number p a,
+.fix {
+    color: black;
+    padding: 5px;
+    box-shadow: 0 0 5px black;
+    border-radius: 15%;
+
+}
+
+.number .fa {
+    padding: 10px;
+    background: white;
+    color: black;
+    box-shadow: 0 0 5px black;
+    border-radius: 50%;
+}
+
+.fix {
+    background: black;
+    color: white;
+    padding: 5px;
+
+}
+
+.number .fa:hover {
+    background: black;
+    color: white;
+}
+
+.number p :hover {
+    background: gray    ;
+}
+/* your numberstart */
+
+
+/* your post start */
+.post {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    color: black;
+}
+
+.popular-post {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.post-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-photo {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.post-photo img {
+    width:80px;
+    height: 80px;
+
+}
+.post-text,.post-photo{padding-left: 10px;}
+
+.post-text a p,
+.post-img a h3,
+.post-img a p {
+    color: black;
+}
+
+.post-text h3:hover,
+.about-text .fa:hover {
+    color: blue;
+}
+
+.about {
+    /* background: red; */
+    height: auto;
+    width: 30%;
+}
+
+.about-text p {
+    font-size: 2vh;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.about-text .fa {
+    padding: 3px;
+    font-size: 4vh;
+    transition: 0.5;
+}
+
+/* your  tags end...  */
+.tags {
+    text-align: center;
+    color: black;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.tags a {
+    color:black;
+}
+
+.tags h1 {
+    padding-bottom: 30px;
+
+}
+
+.tags-list li,
+.tags-list1 li {
+    display: inline;
+    font-size: 3vh;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.tags-list {
+    padding: 30px;   
+}
+
+.tags-list li:hover,
+.tags-list1 li:hover {
+    background: lightslategray;
+    border-radius: 10px ;
+}
+ /* your  tags end...  */
+
+ /* your footer end...  */
+.footer
+{
+    background: rgb(15, 11, 11);
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    height: auto;
+    padding: 60px;
+    gap: 100px;
+}
+.footer-list
+{
+    width: 50%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;  
+}
+.heading h4 ,.our-newsletter{
+    line-height: 60px;
+    
+}
+
+.quick-links ul li  ,.footer-text
+{
+    line-height: 40px;
+}
+.footer-about
+{
+    width: 40%;
+    line-height: 100px;   
+}
+
+.footer-input span
+{
+    background: grey;
+    color: white;
+    padding: 10px;
+}
+input ,::placeholder
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.footer-input  button
+{
+    background: blue;
+    color: white;
+    padding: 10px;
+}
+
+
+.Colorlib a:hover{
+    color: blue;
+}
+
+
+ /* your footer end...  */
+

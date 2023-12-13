@@ -1,0 +1,207 @@
+@media(max-width:800px)
+{
+  .header{grid-template-columns: 1fr 1fr;text-align: center;}
+  .call{font-size: 14px;}
+  .navbar-list{padding: 10px;}
+  input{width: 100px;}
+  .gallery,.permium-car{grid-template-columns: 1fr 1fr;}
+  .top-right,.order,.map{grid-template-columns: 1fr;}
+  .right-right{grid-template-columns: 50fr;}
+  .permium-car-img img{ object-fit: contain;}
+  .client-main {display: block;}
+  .high-variety{padding: 20px;}
+  .copy-right{grid-template-columns: 1fr;gap: 10px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px)
+ {
+    .navbar-list li ,.phone
+    {
+        display: none;
+    }
+    .luxedrive{
+        padding-left: 0; 
+     }
+
+    .header,.phone {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .inputa
+    {
+        grid-template-columns: 1fr;
+    }
+
+
+
+    .transport {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .gallery,.copy-right {
+        grid-template-columns: 1fr;
+    }
+
+    .ftnesh-transport
+    {
+        padding: 20px;
+    }
+    .top
+    {
+        display: block;
+        place-items: left;
+    }
+    .top-right
+    {
+      gap: 30px;
+     grid-template-columns: 50fr;
+    }
+
+    .video-hover{
+        padding:20px ;
+    }
+
+    .order
+    {
+        padding: 20px;
+        gap: 30px;
+    }
+  
+    .order, .order-img, .car-boox {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        width: 100%;
+    }
+    .rent-car{padding: 20px;}
+
+
+    .proffesional
+    {
+        padding:20px;
+    }
+    .proffesional-img
+    {
+        display: block;
+        
+    }
+    .proffesional-img img, .permium-car-img img
+    {
+        width: 100%;
+        /* height: 100%; */
+    }
+    .right-right
+    {
+      gap: 30px;
+     grid-template-columns: 1fr;
+     width: 100%;
+    }
+    .sub
+    {
+        gap: 30px;
+        grid-template-columns: 1fr;
+    }
+.permium-car{padding: 20px;display: grid;grid-template-columns: 1fr;}
+
+    
+
+   
+
+    .client-main
+    {
+        padding: 20px;
+        grid-template-columns: 1fr;
+    }
+    .client-tex2,.client-tex3
+    {
+        display: none;
+    }
+
+
+    .background-img img
+    {
+        padding: 20px;
+    }
+
+
+    .high-variety{
+        padding: 20px;
+        /* text-align: center; */
+    }
+    .car-boox
+    {
+        grid-template-columns: 1fr;
+        place-items: start;
+        overflow: hidden;
+       padding: 10px;  
+     }
+    .boox-check p
+    {
+       display: block;  
+       text-align: left;
+    }
+
+    
+   
+  
+    .model-logo
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .map
+    {
+        padding: 20px 5px;
+    }
+    
+
+
+
+
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-tex {
+        padding-left: 0px;
+        padding-left: 20px;
+    }
+
+    .footer-link,
+    .footer-service {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+}
