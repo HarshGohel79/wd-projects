@@ -1,0 +1,30 @@
+@media(max-width:1100px){.about,.skills{ text-align: start; padding: 20px;}}
+@media(max-width:900px){
+    .navbar{grid-template-columns: 1fr;} 
+    .about{display: flex; padding: 60px;}
+    .about-img,.skill{width: 100%; padding: 0;}
+    .portfolio{grid-template-columns: 1fr 1fr;}
+    .copy-right{padding: 10px;}   
+}
+@media(max-width:700px){
+    .navbar{grid-template-columns: 1fr;}
+    .about{display: block;}
+    .about-img,.skill{width: 100%; padding: 0;}
+    .skills{display: block;}
+    .project{padding: 0;}
+    .portfolio{grid-template-columns: 1fr 1fr;}
+    .footer-tex,.h1s{display: none;}
+    .copy-right{padding: 20px;}
+}
+@media (max-width:500px) {
+    
+    .home,.skills,.project,.copy-right{padding: 20px;}
+    .list li a{padding: 5px;}
+    .navbar ,.portfolio{grid-template-columns: 1fr; text-align: center;}
+    .about,.skills{display: block; padding: 20px;}
+    .about-img,.about-tex{width: 100%;}
+    .skill{width: 100%;}
+    .footer-tex,.h1{display: none;}
+    .footer{width: 100%;}
+    
+}

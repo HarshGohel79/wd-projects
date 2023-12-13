@@ -1,0 +1,607 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: Sora,sans-serif;
+    color: white;
+}
+body * h1 ,* p,* a,* h3,* span
+{
+    color: white;
+}
+.color {
+    color: goldenrod;
+}
+.navbar-list li {
+    display: inline;
+}
+.dropdown1 li
+{
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    height: 100vh;
+    position: relative;
+    background: url(../img/h1-rev-img-4b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: top;
+    transform: scale(1);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 75fr 45fr;
+    padding-top: 20px;
+
+}
+
+.luxedrive {
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-left: 12vh;
+}
+
+.phone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.call {
+    /* word-spacing: 5px; */
+}
+
+/* . navbar start ...  */
+.navbar
+{
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+}
+.navbar-list
+{
+    padding-top: 40px;
+    word-spacing: 60px;
+    padding-left: 60px;
+}
+
+.navbar-list a
+{
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.mainu{
+    position: relative;
+    padding: 30px;
+}
+.dropdown1
+{
+
+      position: absolute;
+      top: 100%;
+      left: 0%;
+      background:black;
+      display: none;
+      height:auto;
+      width: 280px;
+      height: auto;
+      
+}
+.list li a {
+    color: white;
+}
+.list:hover .dropdown1
+{
+    display: block;
+
+}
+.detalis {
+    width: 80%;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}
+
+.detalis-tex {
+    font-size: 2vw;
+
+}
+.detalis-tex p {
+    padding-bottom: 30px;
+}
+
+input {
+    width: 80%;
+    padding: 2vw 0;
+    border: none;
+    color: white;
+    background: rgba(211, 211, 211, 0.2);
+}
+
+::placeholder {
+    color: white;
+
+}
+
+.inputa {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 4vw;
+    overflow: hidden;
+}
+
+.inputa button {
+    width: 100%;
+    height: 4vw;
+    background: transparent;
+    border: 1px solid goldenrod;
+}
+
+.transport {
+    background:#191920;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: auto;
+    padding: 60px;
+    gap: 20px
+
+}
+.transport-text h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.transport-contect {
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.transport-call {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: auto;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.gallery {
+    display: grid;
+    background:#191920;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 60px;
+}
+
+.gallery-photo {
+
+    text-align: center;
+}
+
+.gallery-photo img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gallery-photo p,.gallery-photo i {
+    font-size: 20px;
+}
+
+.gallery-photo i {
+    color: goldenrod;
+}
+
+.ftnesh-transport {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    padding: 60px;
+    background: #171717;
+}
+.ftnesh-transport-tex {
+    font-size: 15px;
+    line-height: 50px;
+}
+.top {
+    height: auto;
+    display: grid;
+    place-items: end;
+}
+.top-right
+{
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    grid-template-rows: auto auto;
+    gap: 40px;
+    width: 70%;
+}
+
+.no-delays h3,
+.no-delays p,
+.permium-car-tex p {
+    text-transform: capitalize;
+}
+.no-delays p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.video-hover {
+    text-align: center;
+    position: relative;
+    background: #171717;
+    padding: 60px;
+}
+
+.video img {
+    width: 85vw;
+    height: 40vw;
+    position: relative;
+}
+
+.hover {
+    position: absolute;
+    top: 14vw;
+    left: 13vw;
+    background: transparent;
+    height: 18vw;
+    width: 20vw;
+    border-radius: 50%;
+    border: 1px solid wheat;
+    transition: 0.5s;
+}
+.video-tex
+{
+    position: absolute;
+    top: 45%;
+    left: 21%;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+}
+
+.order {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    background: #191920;
+    padding: 60px;
+}
+.order-tex {
+    display: grid; 
+    gap: 20px;
+}
+.order-tex p {
+    font-size: 20px;
+}
+
+.order-tex button {
+    color: white;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+}
+.order-img
+{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.order-img1 img,
+.order-img2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.rent-car {
+    position: relative;
+    background: url(../img/h1-img-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+    padding: 60px;
+    
+
+}
+
+.rent-tex {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 1.5vw;
+
+}
+
+.car-button button {
+    position: absolute;
+    top: 14vw;
+    right: 10%;
+    width: 130px;
+    height: 50px;
+    border: 1px solid gold;
+}
+
+.car-button a button {
+    color: white;
+    background: transparent;
+}
+
+.proffesional,
+.client {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: left;
+    padding: 60px;
+    background: #191920;
+    gap: 30px;
+}
+.proffesional-tex p {
+    color: goldenrod;
+    border-bottom: 1px solid white;
+    line-height: 50px;
+}
+
+
+.proffesional-img {
+    height: 10%;
+    display: grid;
+    place-items: end;
+}
+.right-right
+{
+    display: grid;
+    grid-template-columns: 33.33fr 33.33fr 33.33fr;
+    grid-template-rows: auto auto;
+    gap: 40px;
+    width: 70%;
+}
+
+.proffesional-img img
+{
+    width: 80%;
+    object-fit: contain;
+}
+.proffesional-man p,
+.proffesional-man a {
+    color: goldenrod;  }
+
+.proffesional-man h1
+{
+    font-size: 20px;
+}
+
+
+.permium-car {
+    background: #171717;
+    padding: 60px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.permium-car-img img {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.permium-car-tex
+{
+   line-height: 50px;
+}
+
+.sub h1 {
+    font-size: 60px;
+}
+
+.sub {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+}
+.sub p
+{
+    font-size: 15px;
+
+}
+
+
+
+
+
+.client{
+    background: #191920;
+    padding: 60px;
+    display: grid;
+    gap: 70px;
+}
+.client-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+
+}
+.client-tex ,.client-tex2,.client-tex3 {
+    border-left: 1px solid black;
+    line-height: 40px;
+}
+
+.client-tex p ,.high-variety p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+.background-img img {
+    width: 100%;
+    background: #191920;
+}
+
+
+
+
+
+.high-variety {
+    background:  #191920;
+    padding: 60px;
+    display: grid;
+
+}
+
+.car-boox
+{
+    display: grid;
+    grid-template-columns: 30fr 20fr 10fr  ;
+    grid-template-rows: auto;
+    place-items: end;
+    gap: 50px;
+}
+.boox-button button
+{
+    background: transparent;
+    border: 1px solid goldenrod;
+    padding: 10px;
+
+}
+.boox-img
+{
+    background: url(../img/h1-img-12.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.high-variety .color
+{
+    border-bottom:  1px solid goldenrod;
+}
+
+
+
+
+
+.model-detalis {
+    background:  #191920;
+    padding: 60px;
+    display: grid;
+    overflow: hidden;
+}
+
+.model-imgs
+{
+    position: relative;
+    height: 24vw;
+}
+
+.model-imgs h1
+{
+    font-size: 3vw;
+}
+.model-imgs img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.offer  
+{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%); 
+}
+
+.model-logo
+{
+    display: grid;
+    grid-template-columns: 20fr 20fr 20fr;
+    padding: 30px;
+}
+.map
+{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+.map-tex h3
+{
+  font-size: 12px;
+}
+.map-img
+{
+    width: 50px;
+    height: 50px;
+}
+.map-img img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+.border{
+    border-bottom: 1px solid wheat;
+    padding-bottom: 2vw;
+}
+
+.footer{
+    background: #191920;
+    display: grid;
+    grid-template-columns: 6fr 3fr 3fr;
+    grid-template-rows: auto;
+    text-transform: capitalize;
+    padding: 60px;
+    gap: 50px;
+}
+.footer-link li ,.footer-service li
+ {
+    display: block;
+    line-height: 40px;
+    word-spacing: 10px;
+}
+.footer-link a ,.footer-service a
+{
+    color: white;   
+}
+.footer-tex
+{
+    line-height: 40px;
+}
+
+.footer-tex p a
+{
+    color: goldenrod;
+    font-size: 14px;    
+}
+.footer-tex h2,.footer-link h2,.footer-service h2
+{
+    font-size: 20px;
+}
+.copy-right
+{
+     background:191920;
+     height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
